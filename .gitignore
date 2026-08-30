@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+
+backend/.env
+backend/data/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+*.log
+.DS_Store
+npm-debug.log*
+
+.vscode/
+.idea/
