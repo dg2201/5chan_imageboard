@@ -25,8 +25,8 @@ See `docs/` for a full breakdown of the build process, component architecture, a
 ```bash
 cd backend
 npm install
-cp .env.example .env
-node src/utils/generateAdminHash.js "your-chosen-admin-password"
+copy .env.example .env
+node src/utils/generateAdminHash.js "your_password_goes_here"
 ```
 
 Paste the printed hash into `.env` as `ADMIN_PASSWORD_HASH`. Also fill in `JWT_SECRET` and `TRIPCODE_SALT` with long random strings, e.g.:
