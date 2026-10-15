@@ -4,7 +4,7 @@ A minimal, security hardened anonymous imageboard built with React and Express. 
 
 ## Stack
 
-- **Frontend:** React 18 + Vite, React Router, no UI framework — plain CSS
+- **Frontend:** React 18 + Vite, React Router, no UI framework/plain CSS
 - **Backend:** Express, better sqlite3, Helmet, express-rate-limit, express-validator, Multer, Sharp, bcryptjs, jsonwebtoken
 
 ## Features
